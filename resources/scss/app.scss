@@ -1,0 +1,241 @@
+
+@import 'variables';
+
+
+
+// header
+
+.header-container{
+    min-height: 5rem;
+    background-color: $color-primary-dark;
+    top: 0;
+}
+nav .navbar{
+    background-color: $color-primary-dark;
+}
+.position-absolute{
+    right:0;
+}
+li .active:hover {
+    background-color: rgba(100, 95, 95, 0.712);
+}
+.brand-name:hover{
+    color: rgb(92, 88, 88);
+}
+//---
+.container__log {
+
+    width: 400px;
+    max-width: 400px;
+    margin: 6rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-left: 5px solid $border-color;
+    border-radius: $border-radius;
+    background: #ffffff;
+}
+
+
+.container__log,
+.form__input,
+.form__button {
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form > *:first-child {
+    margin-top: 0;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: $color-success;
+}
+
+.form__message--error {
+    color: $color-error;
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: $border-radius;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+    border-color: $color-primary;
+    background: #ffffff;
+}
+
+.form__input--error {
+    color: $color-error;
+    border-color: $color-error;
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: $color-error;
+}
+
+.form__button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: $border-radius;
+    outline: none;
+    cursor: pointer;
+    background: $color-primary;
+}
+
+.form__button:hover {
+    background: $color-primary-dark;
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.form__link {
+    color: $color-secondary;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+
+// css cho button trang admin
+
+.admin_select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20vh auto
+}
+
+.btn-slg{
+    min-width: 20vw;
+    min-height: 25vh
+}
+// css file home
+.home-container{
+    margin-top: 1rem;
+    background-color: $background-color;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+} 
+body::-webkit-scrollbar-thumb {
+    background-color: $border-color;
+    border-radius: 10px;
+}
+.card__list{
+    margin-bottom: 1rem;
+}
+.btn-primary{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border: 1px solid  $border-color;
+    background-color: $border-color !important;
+}
+.card__shadow{
+    background-color: $background-color;
+}
+.chat-icon{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+ion-icon{
+    font-size: 2.4rem;
+    color: $color-primary;
+}
+.chat-box{
+    display: none;
+}   
+.chat-block{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(71, 66, 66, 0.671);
+}
+.chat-form{
+    padding: 2%;
+    width: 30%;
+    height: 50%;
+    position: fixed;
+        bottom: 15%;
+        right: 10%;
+    background-color: #ffff;
+    border-radius: 10px;
+    
+}
+.form_box{
+    display: flex;
+    justify-content: center;
+}
+.filter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form_filter{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.form-control1{
+    margin: 1rem;
+    border: 1px solid $color-primary;
+    border-radius: 5px;
+}
+// =----------foooter
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary-dark;
+}
+.footer_contact{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}

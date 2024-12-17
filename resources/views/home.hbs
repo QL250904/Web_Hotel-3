@@ -1,0 +1,84 @@
+
+{{!-- -------body------- --}}
+
+
+<div class="home-container">
+    <div class="form_box">
+        <form method="POST" action="/" class="form_filter">
+            <div class="filter">
+                <div class="col-4 form-control1">
+                    <input type="number" class="form-control" placeholder="Min Cost ($)" min="0" max="200" name="minCost"
+                        id="minCost">
+                </div>
+                <div class="col-4 form-control1">
+                    <input type="number" class="form-control" placeholder="Max Cost ($)" min="0" max="200" name="maxCost"
+                        id="maxCost">
+                </div>
+            </div>
+            <button type="submit" id="autoSubmitBtn" style="display: none;"></button>
+        </form>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            {{#each room}}
+            <div class="col-sm-6 col-lg-4 card__list card__shadow">
+                <div class="card">
+                    <a href="/room/{{this.roomNumber}}">
+                        <img src="{{this.image}}" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">Room {{this.roomNumber}}</h6>
+                        <div style="display: flex; justify-content: space-around;">
+                            <p class="card-text" style="color:grey;"><i>Type bed: {{this.type}}</i></p>
+                            <h3 style="color: #131859;">{{this.cost}} $</h3>
+                        </div>
+                        <div style="display: flex; justify-content: center;">
+                            <a href="/reservation/{{this.roomNumber}}" class="btn btn-primary">Book now!!!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="chat-icon">
+        <ion-icon name="logo-wechat" id="iconChat"></ion-icon>
+    </div>
+    <div class="chat-box">
+        <div class="chat-block "></div>
+        <form class="chat-form" method="POST" action="/message/store">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Your Phone</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" name="phoneNumber">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Message</label>
+                <input type="text" class="form-control" name="message">
+            </div>
+            <div style="display:flex; justify-content: space-around;">
+                <button type="submit" class="btn btn-primary ">Send</button>
+                <ion-icon name="close-sharp" id="iconChatClose"></ion-icon>
+            </div>
+        </form>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer_contact">
+        <h3 style="margin: auto;">Motel 3 Group</h3>
+        <p style="margin: auto;">Address: VNUK - 158A Lê Lợi, phường Hải Châu 1,</p>
+        <p style="margin: auto;">Email: motel33group@gmail.com</p>
+        <p style="margin: auto;">Phone: 987654321987654321xx</p>
+    </div>
+</footer>
+
+<script>
+    var iconChat = $("#iconChat");
+    var chatBox = $(".chat-box");
+    var chatBoxClose = $("#iconChatClose");
+    iconChat.on("click", function (event) {
+            chatBox.show();
+        });
+    chatBoxClose.on("click", function (event) {
+            chatBox.hide();
+        });
+</script>

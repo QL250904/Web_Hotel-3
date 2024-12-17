@@ -1,0 +1,26 @@
+
+<div class="card mb-3 detail_container " style="width: 40rem; margin: auto">
+  <h3 class="card-title detail_title" style="text-align:center;">Details of room number {{room.roomNumber}}</h3>
+  <img src="{{room.image}}" class="card-img-top " alt="...">
+  <div class="card-body">
+    <div style="display: flex; justify-content: space-around; margin: 1rem auto">
+      <h2 style="color: #131859;">{{room.cost}} $</h2>
+      <a href="/reservation/{{room.roomNumber}}" class="btn btn-primary">Book now!!!</a>
+    </div>
+    <p class="card-text" style="text-align:justify;">Located in the heart of Đà Nẵng, The Q Hotel offers a variety of rooms ranging from 27 to 37 m², designed to meet the diverse needs of our guests. Each room is equipped with modern amenities, including air-conditioning, LED TVs, luxurious sofas, high-speed Wi-Fi, and premium services for visiting nearby tourist attractions.
+
+Designed in an elegant and functional French architectural style, The Q Hotel ensures comfort and satisfaction for every guest throughout their stay.
+
+As one of the most prestigious boutique hotels in Đà Nẵng, The Q Hotel is the perfect weekend retreat for families and loved ones, as well as a romantic haven for couples seeking a memorable vacation. Additionally, the hotel serves as an ideal stopover for business travelers and professionals visiting this vibrant coastal city.
+
+Thanks to its prime location in the center of Đà Nẵng, The Q Hotel offers unmatched convenience for exploring famous tourist attractions and navigating the city with ease.:</p>
+    <p class="card-text"><small class="text-muted">Type bed: {{room.type}}</small></p>
+    
+  </div>
+</div>
+
+<style>
+  .detail_title{
+    margin-top: 1rem;
+  }
+</style>

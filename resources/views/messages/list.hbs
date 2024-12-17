@@ -1,0 +1,37 @@
+<div style="display:flex; justify-content: center;margin:1%">
+  <a href="/room/list" class="btn-admin"><button type="button" class="btn btn-primary">Room</button></a>
+  <a href="/reservation/list" class="btn-admin"><button type="button" class="btn btn-secondary">Reservation</button></a>
+  <a href="/user/list" class="btn-admin"><button type="button" class="btn btn-success">User</button></a>
+  <a href="/message/list" class="btn-admin"><button type="button" class="btn btn-danger">Message</button></a>
+</div>
+<style>
+  .btn-admin{
+    margin: 0.5%;
+  }
+</style>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Total: {{message.length}}</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Message</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each message}}
+      <tr>
+        <th scope="row">{{sum @index 1}}</th>
+        <td>{{this.phoneNumber}}</td>
+        <td>{{this.message}}</td>
+      </tr>
+      {{else}}
+      <tr>
+        <td colspan="5" style="text-align: center;">No message from user!!</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+{{!-- Co xoa khong --}}
+
+

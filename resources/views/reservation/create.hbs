@@ -1,0 +1,29 @@
+<div style="display:flex; justify-content: center;margin:1%">
+  <a href="/room/list" class="btn-admin"><button type="button" class="btn btn-primary">Room</button></a>
+  <a href="/reservation/list" class="btn-admin"><button type="button" class="btn btn-secondary">Reservation</button></a>
+  <a href="/user/list" class="btn-admin"><button type="button" class="btn btn-success">User</button></a>
+  <a href="/message/list" class="btn-admin"><button type="button" class="btn btn-danger">Message</button></a>
+</div>
+<style>
+  .btn-admin{
+    margin: 0.5%;
+  }
+</style>
+<div class="mt-4">
+    <h1>Create reservation</h1>
+    <form method="POST" action="/reservation/store">
+        <div class="mb-3">
+            <label for="idReservation" class="form-label">ID reservation</label>
+            <input type="input" class="form-control" id="idReservation" name="idReservation">
+        </div>
+        <div class="mb-3">
+            <label for="phoneNumber" class="form-label">phoneNumber</label>
+            <input type="input" class="form-control" id="phoneNumber" name="phoneNumber">
+        </div>
+        <div class="mb-3">
+            <label for="roomNumber" class="form-label">Room Number</label>
+            <input type="input" class="form-control" id="roomNumber" name="roomNumber">
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

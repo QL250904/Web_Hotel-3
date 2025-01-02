@@ -1,55 +1,113 @@
 <style>
+/* Tổng thể layout */
 .main {
   margin: auto;
+  display: flex;
+  justify-content: center; /* Căn giữa các card */
+  gap: 20px; /* Khoảng cách giữa các card */
+  align-items: flex-start; /* Đảm bảo các card thẳng hàng ở trên cùng */
+  flex-wrap: wrap; /* Cho phép xuống hàng nếu không đủ chỗ */
+  padding: 20px;
 }
+
+/* Style từng card */
 .card {
-  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border: 2px solid #C66300;
   color: rgb(1, 1, 43);
-  max-width: 300px;
-  margin: auto;
-  padding-left: 10px;
+  width: 300px; /* Đảm bảo kích thước cố định cho card */
+  background: #fff; /* Màu nền trắng */
+  border-radius: 10px; /* Bo góc cho card */
+  overflow: hidden; /* Đảm bảo nội dung không tràn */
   text-align: center;
-  font-family: arial;
-  display: inline-block; 
-  vertical-align: middle
+  font-family: "Arial", sans-serif;
+  transition: transform 0.2s, box-shadow 0.2s; /* Hiệu ứng hover */
 }
 
-.title {
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px); /* Đẩy card lên trên khi hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Tăng độ bóng */
+}
+
+/* Style ảnh */
+.card img {
+  width: 100%; /* Đảm bảo ảnh rộng bằng card */
+  height: 200px; /* Đặt chiều cao cố định */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  border-bottom: 2px solid #C66300;
+}
+
+/* Style nội dung */
+.card h1 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.card .title {
   color: grey;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
+.card p {
+  font-style: italic;
+  margin: 10px 0;
+  color: #555;
+}
 
-a {
+/* Liên kết trong card */
+.card a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: #C66300;
+  margin: 0 10px;
+  transition: color 0.2s;
 }
 
+.card a:hover {
+  color: #FF4500; /* Thay đổi màu khi hover */
+}
 </style>
-<h2 style="margin: 2rem auto; text-align:center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">MOTEL THREE MEMBER</h2>
+
+<h2 style="margin: 2rem auto; text-align: center; font-family: 'Segoe UI', sans-serif;">
+  MOTEL THREE MEMBERS
+</h2>
+
 <div class="main">
-    <div class="card" style="float: left; margin: 0 0 0 200px ">
-        <img src="" alt="" style="width: 90%;">
-            <h1> Lê Quang Lâm </h1>
-            <p class="title">Student of VNUK </p>
-            <p><i>"Decripsion"</i></p>
-        <div style="padding: 8px ;">
-            <a href="#"><i class="fa fa-github"></i></a>  
-            <a href="#"><i class="fa fa-linkedin"></i></a>  
-            <a href="#"><i class="fa fa-facebook"></i></a> 
-      </div>
+  <div class="card">
+    <img src="https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/450874034_1206366693874593_7245571308649837224_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEAnd4aTXAReahEDrkbPU-D8aLU5rJkO4fxotTmsmQ7h7GmOkpcIWc808otM6nFqauOpDddYTbCpJL2HS6vG3zJ&_nc_ohc=feJqNG8iBt8Q7kNvgGtLltZ&_nc_zt=23&_nc_ht=scontent.fdad3-6.fna&_nc_gid=AnrRJO4vouGh7drwXzCq3Wz&oh=00_AYD2ZDduHg7OdCQc909eR__eDKYXGvmu3hjddjIDHED1fA&oe=677C1331" alt="Lê Quang Lâm">
+    <h1>Lê Quang Lâm</h1>
+    <p class="title">Student of VNUK</p>
+    <p>"22090012"</p>
+    <div>
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
     </div>
-    <div class="card" style="float: right; margin: 0 200px 0 0">
-        <img src="" alt="" style="width: 90%;">
-            <h1>Name of Member</h1>
-            <p class="title">Back-end DEV</p>
-            <p><i>"Decripsion"</i></p>
-        <div style="padding: 8px ;">
-          <a href="#"><i class="fa fa-github"></i></a>  
-          <a href="#"><i class="fa fa-linkedin"></i></a>  
-          <a href="#"><i class="fa fa-facebook"></i></a> 
-        </div>
+  </div>
+
+  <div class="card">
+    <img src="https://scontent.fdad3-6.fna.fbcdn.net/v/t1.15752-9/467471742_912936774364762_2382183282245366168_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEUFLc8w87LXN3OQO1VVtihkVO-HpVeu0SRU74elV67RCxF9qPsOUt5z_Bk9K3lEmUu-mMafSlVlLo7PnUmgnam&_nc_ohc=l_o7bvjhTw0Q7kNvgEh_tZm&_nc_zt=23&_nc_ht=scontent.fdad3-6.fna&oh=03_Q7cD1gGBVgkZG1EErT7Vhiu2EbIG71KIb59JkWo5mA9N1KeIjg&oe=679DA931" alt="Trần Anh Trung">
+    <h1>Trần Anh Trung</h1>
+    <p class="title">Student of VNUK</p>
+    <p>"22090002"</p>
+    <div>
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
     </div>
+  </div>
+
+  <div class="card">
+    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/467594816_402026416330252_2264717793578664069_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGa3UCSzsAZ607VS5_8_mqdOfZBokBAUaM59kGiQEBRo5RXBcxVwfIA96Z-Or90buVhd8hgSFXdaXCka8zaf_EH&_nc_ohc=HTrY5iHdR7oQ7kNvgFuuOBr&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gEWjqb78OKCeRy8EOAhMlEkxH1cKXOfv1w3cdNvWG6DVg&oe=679D8D92" alt="Phan Nhất Việt">
+    <h1>Phan Nhất Việt</h1>
+    <p class="title">Student of VNUK</p>
+    <p>"22090004"</p>
+    <div>
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+    </div>
+  </div>
 </div>

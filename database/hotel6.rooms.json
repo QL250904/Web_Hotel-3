@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "67617afee4e6d08c36ac5e13"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://xuonggooccho.com/ckfinder/userfiles/files/anh-phong-ngu.jpg",
+  "cost": "150",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617bd9e4e6d08c36ac5e4b"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://xuonggooccho.com/ckfinder/userfiles/files/anh-phong-ngu.jpg",
+  "cost": "120",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617c0ce4e6d08c36ac5e54"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://xuonggooccho.com/ckfinder/userfiles/files/anh-phong-ngu.jpg",
+  "cost": "122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617c24e4e6d08c36ac5e59"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://noithattrevietnam.com/uploaded/2020/10/3-thiet-ke-phong-khach-san-dep%20%288%29.jpg",
+  "cost": "122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617c4ce4e6d08c36ac5e5e"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://noithattrevietnam.com/uploaded/2019/10/3-phong-ngu-khach-san-3-sao.jpeg",
+  "cost": "140",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617c74e4e6d08c36ac5e65"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://studiochupanhdep.com/Upload/Images/Album/anh-noi-that-khach-san-dep-01.jpg",
+  "cost": "122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617c94e4e6d08c36ac5e68"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://duopig.com/wp-content/uploads/2021/03/Ch%E1%BB%A5p-%E1%BA%A3nh-resort-ch%E1%BB%A5p-%E1%BA%A3nh-nh%C3%A0-h%C3%A0ng-ch%E1%BB%A5p-%E1%BA%A3nh-kh%C3%A1ch-s%E1%BA%A1n-87-copy.jpg",
+  "cost": "122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617cc2e4e6d08c36ac5e6d"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://amia.vn/wp-content/uploads/2021/08/khong-gian-khu-vuc-sanh-cho-khach-san-5-sao.jpg",
+  "cost": "180",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617cd7e4e6d08c36ac5e70"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://duopig.com/wp-content/uploads/2021/03/Ch%E1%BB%A5p-%E1%BA%A3nh-resort-ch%E1%BB%A5p-%E1%BA%A3nh-nh%C3%A0-h%C3%A0ng-ch%E1%BB%A5p-%E1%BA%A3nh-kh%C3%A1ch-s%E1%BA%A1n-87-copy.jpg",
+  "cost": "200",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e53d1721953e1d9bac3b"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://th.bing.com/th/id/OIP.mGlakF37fxA-k0hKoz83NQHaEn?w=311&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+  "cost": "150",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e7dd1721953e1d9bac56"
+  },
+  "roomNumber": "30",
+  "type": "30",
+  "image": "https://th.bing.com/th/id/OIP.mGlakF37fxA-k0hKoz83NQHaEn?w=311&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+  "cost": "160",
+  "__v": 0
+}]

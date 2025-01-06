@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "67617e43e4e6d08c36ac5ed0"
+  },
+  "phoneNumber": "0987654321",
+  "message": "hi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67629c464b8e06f20ac34a5e"
+  },
+  "phoneNumber": "0987654321",
+  "message": "hi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6763ef047c8707b1e48d3cfc"
+  },
+  "phoneNumber": "0987654321",
+  "message": "hello",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e5531721953e1d9bac40"
+  },
+  "phoneNumber": "0942800966",
+  "message": "hello",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e8101721953e1d9bac60"
+  },
+  "phoneNumber": "0942800966",
+  "message": "Xin chao",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67762c9df675d9be7bc5c4a0"
+  },
+  "phoneNumber": "123123123",
+  "message": "xin chao ae",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677673b36a8d45bf82dc4684"
+  },
+  "phoneNumber": "0988764512",
+  "message": "toi muon tu van",
+  "__v": 0
+}]

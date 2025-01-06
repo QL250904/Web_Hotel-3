@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "67617ae1e4e6d08c36ac5e09"
+  },
+  "phoneNumber": "0987654321",
+  "name": "lamlequang",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617e2ae4e6d08c36ac5eca"
+  },
+  "phoneNumber": "0987654321",
+  "name": "lamlequang",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67617e37e4e6d08c36ac5ecd"
+  },
+  "phoneNumber": "123456789",
+  "name": "lamlequang",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6763ee3b7c8707b1e48d3cec"
+  },
+  "phoneNumber": "123123123",
+  "name": "l",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e4e61721953e1d9bac24"
+  },
+  "phoneNumber": "0942800966",
+  "name": "l",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e7791721953e1d9bac43"
+  },
+  "phoneNumber": "123123123",
+  "name": "QL",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67762c64f675d9be7bc5c48c"
+  },
+  "phoneNumber": "",
+  "name": "QL",
+  "password": "123123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67762d76f675d9be7bc5c4aa"
+  },
+  "phoneNumber": "123456789",
+  "name": "Trung",
+  "password": "123456",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677671f66a8d45bf82dc4672"
+  },
+  "phoneNumber": "123123123",
+  "name": "Trung",
+  "password": "123456",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677673886a8d45bf82dc4680"
+  },
+  "phoneNumber": "123123a",
+  "name": "Viet",
+  "password": "123123",
+  "__v": 0
+}]

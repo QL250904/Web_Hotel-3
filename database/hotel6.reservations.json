@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "67617e64e4e6d08c36ac5eda"
+  },
+  "idReservation": "30",
+  "phoneNumber": "0987654328",
+  "roomNumber": "30",
+  "deleted": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67618a6a6afa28285bb0dbb3"
+  },
+  "idReservation": "30",
+  "phoneNumber": "",
+  "roomNumber": "30",
+  "deleted": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67629c324b8e06f20ac34a54"
+  },
+  "idReservation": "30",
+  "phoneNumber": "0942800966",
+  "roomNumber": "30",
+  "deleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6763ee6b7c8707b1e48d3cf5"
+  },
+  "idReservation": "30",
+  "phoneNumber": "",
+  "roomNumber": "30",
+  "deleted": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e4f71721953e1d9bac29"
+  },
+  "idReservation": "30",
+  "phoneNumber": "0942800966",
+  "roomNumber": "30",
+  "deleted": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e50f1721953e1d9bac34"
+  },
+  "idReservation": "30",
+  "phoneNumber": "0987654328",
+  "roomNumber": "30",
+  "deleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6774e7a01721953e1d9bac48"
+  },
+  "idReservation": "30",
+  "phoneNumber": "0942800966",
+  "roomNumber": "30",
+  "deleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67762c6df675d9be7bc5c491"
+  },
+  "idReservation": "30",
+  "phoneNumber": "",
+  "roomNumber": "30",
+  "deleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677673d26a8d45bf82dc4689"
+  },
+  "idReservation": "30",
+  "phoneNumber": "0988764512",
+  "roomNumber": "30",
+  "deleted": false,
+  "__v": 0
+}]
